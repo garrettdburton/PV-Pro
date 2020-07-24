@@ -1480,7 +1480,7 @@ h3 {
 
 /* line 40, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_about.scss */
 .contact_rsvp {
-  padding: 200px 0;
+  padding: 400px 0;
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1498,7 +1498,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 40, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_about.scss */
   .contact_rsvp {
-    padding: 100px 0;
+    padding: 200px 0;
   }
 }
 
