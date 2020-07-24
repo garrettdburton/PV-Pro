@@ -1261,7 +1261,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
@@ -1324,6 +1324,50 @@ h3 {
   /* line 17, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 100px;
+    letter-spacing: 3px;
+  }
+}
+
+/* line 17, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text h4 {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* line 23, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text h4 span {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  /* line 17, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h4 {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 17, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h4 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 17, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h4 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 17, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h4 {
+    font-size: 20px;
     letter-spacing: 3px;
   }
 }
@@ -1436,8 +1480,8 @@ h3 {
 
 /* line 40, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_about.scss */
 .contact_rsvp {
-  padding: 184px 0;
-  background-image: url(../img/banner/contact.png);
+  padding: 200px 0;
+  background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1447,7 +1491,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 40, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_about.scss */
   .contact_rsvp {
-    padding: 100px 0;
+    padding: 150px 0;
   }
 }
 
